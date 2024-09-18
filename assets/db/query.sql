@@ -38,6 +38,6 @@ WHERE link = ?;
 
 -- name: TenderUpdateJson :exec
 UPDATE tender SET
-                  json_version = ?,
-                  json = ?
+json_version = ?,
+json = ?
 WHERE uid = ?;

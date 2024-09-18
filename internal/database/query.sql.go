@@ -268,8 +268,8 @@ func (q *Queries) TenderListSearchable(ctx context.Context, closingAt int64) ([]
 
 const tenderUpdateJson = `-- name: TenderUpdateJson :exec
 UPDATE tender SET
-                  json_version = ?,
-                  json = ?
+json_version = ?,
+json = ?
 WHERE uid = ?
 `
 
