@@ -1,0 +1,45 @@
+# github.com/BurntSushi/toml v1.2.1
+## explicit; go 1.16
+github.com/BurntSushi/toml
+github.com/BurntSushi/toml/internal
+# github.com/carlmjohnson/requests v0.24.2
+## explicit; go 1.22
+github.com/carlmjohnson/requests
+github.com/carlmjohnson/requests/internal/minitrue
+github.com/carlmjohnson/requests/internal/slicex
+# github.com/davecgh/go-spew v1.1.1
+## explicit
+github.com/davecgh/go-spew/spew
+# github.com/ilyakaznacheev/cleanenv v1.5.0
+## explicit; go 1.13
+github.com/ilyakaznacheev/cleanenv
+# github.com/joho/godotenv v1.5.1
+## explicit; go 1.12
+github.com/joho/godotenv
+# github.com/pmezard/go-difflib v1.0.0
+## explicit
+github.com/pmezard/go-difflib/difflib
+# github.com/stretchr/testify v1.9.0
+## explicit; go 1.17
+github.com/stretchr/testify/assert
+github.com/stretchr/testify/require
+# github.com/tidwall/gjson v1.17.3
+## explicit; go 1.12
+github.com/tidwall/gjson
+# github.com/tidwall/match v1.1.1
+## explicit; go 1.15
+github.com/tidwall/match
+# github.com/tidwall/pretty v1.2.0
+## explicit; go 1.16
+github.com/tidwall/pretty
+# golang.org/x/net v0.27.0
+## explicit; go 1.18
+golang.org/x/net/html
+golang.org/x/net/html/atom
+golang.org/x/net/publicsuffix
+# gopkg.in/yaml.v3 v3.0.1
+## explicit
+gopkg.in/yaml.v3
+# olympos.io/encoding/edn v0.0.0-20201019073823-d3554ca0b0a3
+## explicit; go 1.13
+olympos.io/encoding/edn
