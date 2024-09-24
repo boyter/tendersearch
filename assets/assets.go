@@ -10,3 +10,6 @@ var Logo []byte
 
 //go:embed public
 var Assets embed.FS
+
+//go:embed db/schema.sql
+var Schema string

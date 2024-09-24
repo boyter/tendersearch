@@ -9,7 +9,15 @@ type Service struct {
 }
 
 func NewService(db *sql.DB) *Service {
-	return &Service{
+	s := &Service{
 		db: db,
 	}
+	s.Crawl()
+	return s
+}
+
+// Crawl triggers the crawl services to run fetching tenders in the background
+func (s *Service) Crawl() {
+	// crawls the tenders we can get via rss
+	go s.processFeeds()
 }

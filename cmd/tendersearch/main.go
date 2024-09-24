@@ -4,6 +4,7 @@ import (
 	"database/sql"
 	_ "embed"
 	"fmt"
+	"github.com/boyter/tendersearch/assets"
 	"log/slog"
 	"net/http"
 	"os"
@@ -23,6 +24,12 @@ func main() {
 		slog.Error("error", common.Err(err), common.UC("8457b854"))
 		return
 	}
+
+	// create the tables and ignore the error because it shouldn't matter
+	if _, err = sqliteDb.Exec(assets.Schema); err != nil {
+		slog.Error("error", common.Err(err), common.UC("43af884d"))
+	}
+
 	ser := service.NewService(sqliteDb)
 	application := app.NewApplication(ser)
 
