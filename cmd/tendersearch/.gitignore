@@ -1,2 +1,5 @@
 tendersearch
 tendersearch-smoke
+tenders.sqlite
+tenders.sqlite-wal
+tenders.sqlite-shm
